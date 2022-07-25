@@ -1,4 +1,6 @@
-import util.Account;
+package old;
+
+import old.util.Account;
 
 import java.util.Scanner;
 

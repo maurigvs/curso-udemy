@@ -1,5 +1,6 @@
-import util.Calculadora;
-import util.CurrencyConverter;
+package old;
+
+import old.util.CurrencyConverter;
 
 import java.util.Scanner;
 

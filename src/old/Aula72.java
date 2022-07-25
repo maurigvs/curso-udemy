@@ -1,4 +1,6 @@
-import util.Calculadora;
+package old;
+
+import old.util.Calculadora;
 
 import java.util.Scanner;
 

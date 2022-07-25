@@ -1,9 +1,6 @@
-package exercicios;
-
-import java.time.Instant;
+package old.exercicios;
 
 import java.time.LocalDate;
-import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 

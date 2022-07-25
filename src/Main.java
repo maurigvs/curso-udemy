@@ -1,10 +1,9 @@
-import java.util.Scanner;
+import org.udemy.apps.Secao15;
 
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Secao15.main(args);
 
-        sc.close();
     }
 }

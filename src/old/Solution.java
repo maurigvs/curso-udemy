@@ -1,5 +1,5 @@
-// you can also use imports, for example:
-// import java.util.*;
+package old;// you can also use imports, for example:
+// import java.old.util.*;
 
 // you can write to stdout for debugging purposes, e.g.
 // System.out.println("this is a debug message");
