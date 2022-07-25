@@ -11,9 +11,39 @@ public class Secao17 {
     public static void main(String[] args) {
 
         // aula215();
-        aula218();
+        //aula218();
+        aula219();
     }
 
+    public static void aula219(){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a folder path: ");
+        String strPath = sc.nextLine();
+
+        File path = new File(strPath);
+
+        // Imprime os diretórios dentro de um diretório
+
+        File[] folders = path.listFiles(File::isDirectory);
+        System.out.println("Folders: ");
+        for(File folder : folders){
+            System.out.println(folder);
+        }
+
+        // Imprime os arquivos de um diretório
+
+        File[] files = path.listFiles(File::isFile);
+        for(File file : files){
+            System.out.println(file);
+        }
+
+        boolean success = new File(strPath + "/subdir").mkdir();
+        System.out.println("Directory created successfully: " + success);
+
+        sc.close();
+    }
     public static void aula218(){
 
         String[] lines = new String[] {
