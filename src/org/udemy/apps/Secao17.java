@@ -12,7 +12,24 @@ public class Secao17 {
 
         // aula215();
         //aula218();
-        aula219();
+        //aula219();
+        aula220();
+    }
+
+    public static void aula220(){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a file path: ");
+        String strPath = sc.nextLine();
+
+        File path = new File(strPath);
+
+        System.out.println("getName: " + path.getName());
+        System.out.println("getParent: " + path.getParent());
+        System.out.println("getPath: " + path.getPath());
+
+        sc.close();
     }
 
     public static void aula219(){
