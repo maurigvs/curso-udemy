@@ -10,7 +10,7 @@ public class Secao17 {
 
     public static void main(String[] args) {
 
-        // aula215();
+        //aula215();
         //aula218();
         //aula219();
         aula220();
@@ -24,6 +24,8 @@ public class Secao17 {
         String strPath = sc.nextLine();
 
         File path = new File(strPath);
+
+        // Imprime atribuitos do objeto File
 
         System.out.println("getName: " + path.getName());
         System.out.println("getParent: " + path.getParent());
