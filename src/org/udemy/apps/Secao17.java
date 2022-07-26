@@ -17,30 +17,8 @@ public class Secao17 {
         //aula215();
         //aula218();
         //aula219();
-        //aula220();
-        exercicioProposto();
+        aula220();
     }
-
-    private static void exercicioProposto() {
-
-        List<Product> products = new ArrayList<>();
-        products.add(new Product("TV LED", 1290.99, 1));
-        products.add(new Product("Video Game Chair", 350.00, 3));
-        products.add(new Product("Iphone X", 900.00, 2));
-        products.add(new Product("Samsung Galaxy 9", 9850.00, 2));
-
-        String path = "/Users/mauri/temp/output_2.txt";
-
-        try(BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))){
-            for (Product p : products){
-                bw.write(p.toString());
-                bw.newLine();
-            }
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-    }
-
 
     public static void aula220(){
 

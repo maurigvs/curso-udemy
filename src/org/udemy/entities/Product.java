@@ -36,12 +36,7 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public Double getTotalPrice(){
-        return getPrice() * getQuantity();
-    }
-
-    @Override
-    public String toString() {
-        return getDescription() + "," + getPrice() + "," + getQuantity();
+    public Double getTotal(){
+        return this.price * this.quantity;
     }
 }
